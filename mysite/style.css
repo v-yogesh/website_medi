@@ -1,20 +1,22 @@
-html,body{
+html,body,footer{
     padding: 0px;
     margin: 0px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 
     height: max-content;
-    width: 100%;
+   
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
     
 }
 
 ol,ul{
     list-style-type: none;
+    padding: 0px;
 }
 
 
@@ -24,7 +26,7 @@ a{
 }
 
 a:hover{
-    color: silver;
+    color: rgb(230, 230, 230);
 }
 
 
@@ -98,8 +100,10 @@ header{
 }
 
 /*PRICEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
-.pricelist{
+#pricing{
     color: white;
+}
+.pricelist{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -107,15 +111,32 @@ header{
 }
 
 .pricetitle{
-    font-weight: bold;
-    padding: 0px;
-    margin: 0px;
-    
-    
+    font-weight: bold;    
 }
 
 .pricecolumn{
     list-style-type: none;
     padding:10px;
-    margin: px;
+}
+
+footer{
+    background-color: gray;
+    background-image: url("https://cdn.statusqueen.com/mobilewallpaper/thumbnail/MOBILE_WALLPAPER422-813.jpg");
+    background-blend-mode:darken;
+    background-position: center;
+    color: white;
+    
+}
+#footer-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+
+#about-us p{
+    font-size: small;
+    line-height:.4;
 }
