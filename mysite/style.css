@@ -1,0 +1,82 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+    height: max-content;
+    width: 100%;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: silver;
+}
+
+
+
+header{
+    background-image: url("bg_info.png");
+    background-attachment:fixed;
+    position:relative;
+
+    /* To prevent from zoom*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 100%;
+    min-height: 300px;
+    height: max-content;
+
+}
+/* NAVIGATION MENU-------------------------------------------------"*/
+.navitems{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.navitem{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#pricing{
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__480.jpg");
+     
+    background-attachment:fixed;
+    
+    
+    /* To prevent from zoom*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*
+    padding: 10px;
+    margin: 20px;
+    */
+
+}
+
+.pricetable{
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.pricetitle{
+    font-weight: bold;
+}
