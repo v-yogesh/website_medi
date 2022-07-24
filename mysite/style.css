@@ -6,8 +6,16 @@ html,body{
 
     height: max-content;
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    
 }
 
+ol,ul{
+    list-style-type: none;
+}
 
 
 a{
@@ -24,12 +32,11 @@ a:hover{
 header{
     background-image: url("bg_info.png");
     background-attachment:fixed;
-    position:relative;
-
+    
     /* To prevent from zoom*/
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:auto;
     position: relative;
     top:0px;
     left:0px;
@@ -69,14 +76,46 @@ header{
 
 }
 
-.pricetable{
+/*Welcome-------------------------------------------*/
+#welcomelist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+#welcometext{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin: 30px;;
+    padding: 30px;
+    word-wrap: break-word;
+}
+
+#picofcoffee{
+    border-radius:100px;
+}
+
+/*PRICEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+.pricelist{
     color: white;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    
+    padding:0;
 }
 
 .pricetitle{
     font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+.pricecolumn{
+    list-style-type: none;
+    padding:10px;
+    margin: px;
 }
